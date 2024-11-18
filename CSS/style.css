@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.sidebar{
+    background-color: black;    
+    height: 100%;
+    width: 20%;
+    color: white;
+    display: inline-block;
+    position: fixed;
+    padding: 20px;
+    left: -300px;
+    transition: all .5s ease;
+    z-index: 111;
+
+}
+
+.sidebar header{
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    background-color:white;  
+    color: black;
+    font-weight: 600;
+}
+.x-button{
+    float: right;
+    margin-top: 0px;
+}
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.226);
+    transition: .4s;
+}
+ul li:hover a{
+    padding-left: 50px;
+
+}
+.sidebar ul a{
+    margin-right: 16px;
+} 
+#check{
+    display: none;
+    
+}
+label #btn{
+ 
+    cursor: pointer;
+    transition: all .5s;
+}
+#check:checked ~ .sidebar{
+    left: 0;
+    
+}
+#check:checked ~ label #btn{
+    left: 300px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: white;
+}
+.pic-1{
+    margin-left: 60px;
+}
+.pic-2{
+    margin-right: 60px;
+    cursor: pointer;
+}
+.pic-2:hover{
+    width: 35px;
+}
+.page-one{
+    width: 100%;
+    height: 100%;
+    background:url("../IMG/first-section.jepg.jpeg") ;
+    background-size: cover;
+
+}
+.content{
+    width: 100%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.page-text{
+float: right;
+margin-right: 12rem;
+margin-top: 6rem;
+}
+.index-head{
+    font-size: 70px;
+    color: #fff;
+    line-height: 4rem;
+  
+  
+}
+.index-para{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 1rem;
+}
+.cur{
+    margin-top: 2rem;
+    transition: all 0.5s ease;
+}
+.cur:hover{
+    width: 80px;
+}
+.page-two{
+    width: 100%;
+    height: 100%;
+   
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(138, 21, 21);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    float: left;
+    
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    
+}
+.right .truck2{
+    box-sizing: border-box;
+    width: 90%;
+    margin-top: 120px;
+    margin-left: -60px;
+    
+}
+.headpagetwo{
+    margin-top: 6rem;
+    margin-left: 80px;
+    color: #fff;
+   
+}
+.paratwo{
+    width:75%;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+    
+   
+}
+.buttontwo{
+    width: 8rem;
+    padding: 1rem;
+    background-color: rgb(138, 21, 21);
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all .5s ease;
+}
+.buttontwo:hover{
+    background-color: white;
+    color: rgb(138, 21, 21);
+    font-size:16px;
+    width: 9rem;
+    font-weight: 600;
+}
+.page-three{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+
+    
+}
+.M567{
+    width: 33%;
+    height: 100%;
+    
+}
+.M389{
+
+ width: 33%;
+ height: 100%;
+}
+.hightway{
+
+ width: 33%;
+ height: 100%;
+}
+.title{
+    margin: 5rem 0 0 5rem;
+    color:  rgb(138, 21, 21);
+
+}
+.title2{
+    margin: 5rem 0 0 3rem;
+    color:  rgb(138, 21, 21);
+}
+.title3{
+    margin: 5rem 0 0 1rem;
+    color:  rgb(138, 21, 21);
+}
+.p3hr{
+    margin: 2rem 65% 2rem 5rem;
+    border: 1px solid  rgb(138, 21, 21);;
+}
+.p3hr2{
+    margin: 2rem 70% 2rem 3rem;
+    border: 1px solid  rgb(138, 21, 21);;
+}
+.p3hr3{
+    margin: 2rem 80% 2rem 1rem;
+    border: 1px solid  rgb(138, 21, 21);;
+}
+.M567P{
+    width: 90%;
+    margin: 0 5rem;
+    font-weight: 100;
+    color: #808080;
+}
+.buttonthree1{
+    width: 9.8rem;
+    padding: 0.8rem;
+    background-color: rgb(138, 21, 21);
+    border: 1px solid #fff;
+    color: #fff;
+    margin: -10px 5rem;
+    transition: all .5s ease;
+}
+.buttonthree1:hover{
+    background-color: white;
+    color: rgb(138, 21, 21);
+    font-size:16px;
+    width: 9rem;
+    font-weight: 600;
+    border: 1px solid  rgb(138, 21, 21);
+}
+.M389P{
+    width: 80%;
+    font-weight: 100;
+    margin: 0 3rem;
+    color: #808080;
+}
+.buttonthree2{
+    width: 9.8rem;
+    padding: 0.8rem;
+    background-color: rgb(138, 21, 21);
+    border: 1px solid #fff;
+    color: #fff;
+    margin: -10px 3rem;
+    transition: all .5s ease;
+}
+.buttonthree2:hover{
+    background-color: white;
+    color: rgb(138, 21, 21);
+    font-size:16px;
+    width: 9rem;
+    font-weight: 600;
+    border: 1px solid  rgb(138, 21, 21);
+}
+.hightwayP{
+    width: 85%;
+    line-height: 1.6rem;
+    font-weight: 100;
+    margin: 0 1rem;
+    color: #808080;
+}
+.page-four{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.left4{
+    width: 45%;
+    height: 100%;
+
+}
+
+.right4{
+    width: 100%;
+    height: 100%;
+    background-color: #2A2A2A;
+    clip-path: polygon(10% 0, 100% 0%, 100% 100%, 24% 100%);
+    color: #fff;
+    
+}
+.main4{
+    margin: 10% 20%;
+}
+.page4h3{
+    font-size: 18px;
+}
+.page4h1{
+    font-size: 30px;
+  
+}
+.page4P{
+    font-size: 20px ;
+    line-height: 25px;
+   
+}
+.page4button{
+    width: 9.8rem;
+    padding: 1rem 0.1rem;
+    background-color: #2A2A2A;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 10px;
+    transition: all .5s ease;
+}
+.page4button:hover{
+    background-color: white;
+    color:  #2A2A2A;
+    font-size: 16px;
+}
+.page4hr{
+margin: 1rem 85% 1rem 0rem;
+border: 1px solid  #fff;
+}
+.page5{
+    width: 100%;
+    height: 75%;
+   background-color: #E5E5E5;
+    position: absolute;
+}
+
+.main5{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.P5head{
+    width: 100%;
+    height: 30%;
+    color:  rgb(138, 21, 21);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.page5hr{
+    margin: -1.5rem 48% 1rem 48%;
+    background-color: 1px solid rgb(138, 21, 21);
+}
+.P5img{
+    display: flex;
+    width: 95%;
+    height: 40%;
+    margin-top: 45px;
+    margin-left: 30px;
+    justify-content: space-evenly;
+}
+.img-title{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.img1{
+    transition: all .5s ease;
+}
+.img1:hover{
+    width: 230px;
+}
+.img2{
+    transition: all .5s ease;}
+.img2:hover{
+    width: 230px;
+}
+.img3{
+    transition: all .5s ease;
+}
+.img3:hover{
+    width: 230px;
+}
+.img4{
+    transition: all .5s ease;
+}
+.img4:hover{
+    width: 230px;
+}
+.img5{
+    transition: all .5s ease;
+}
+.img5:hover{
+    width: 230px;
+}
+
+
